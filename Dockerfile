@@ -1,5 +1,7 @@
 FROM php:7.3-alpine
 
+LABEL maintainer="sam@samdjames.uk"
+
 WORKDIR /application
 
 RUN docker-php-ext-install pdo pdo_mysql
